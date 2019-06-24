@@ -1,4 +1,4 @@
-var car = new Car(80, "lether", "minivan", "blue"); //Creating car: Blue minivan with wheels size = 80 and steerin wheel made of lether
+var car = new Car(80, "leather", "minivan", "blue"); //Creating car: Blue minivan with wheels size = 80 and steerin wheel made of lether
 show(car.showColor() + " " + car.showSteerWheel()  + car.showBodyType() + " " + car.showWheels());
 car.paint("red"); //change color
 car.design("sedan"); //change type of body
